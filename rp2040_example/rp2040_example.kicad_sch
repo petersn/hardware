@@ -3275,7 +3275,7 @@
   (symbol (lib_id "Device:LED_RBGA") (at 127 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4ca870c-b063-4264-bbc3-c6ee73619cfb)
-    (property "Reference" "D101" (at 127 148.59 0)
+    (property "Reference" "D1" (at 127 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_RBGA" (at 127 151.13 0)
@@ -3294,7 +3294,7 @@
     (instances
       (project "rp2040_example"
         (path "/16c5b016-7c52-4f61-96e2-bedcca5aba58"
-          (reference "D101") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "fmc_daughterboard"
